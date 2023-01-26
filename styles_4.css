@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'aktivgrotesk';
+    src: url(AktivGrotesk-Regular.otf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'aktivgrotesk';
+    src: url(AktivGrotesk-Light.otf);
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'millerdisplay';
+    src: url(Miller\ Display\ Regular.otf);
+}
+
+/* TIPOGRAFIA_FONTES */
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+
+  ::-webkit-scrollbar {
+    width: 0px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    } 
+
+/* SCROLL*/
+
+body {
+    color: black;
+    background-color: white;
+    font-family: 'aktivgrotesk';
+}
+
+.body {
+    margin: 4%;
+    margin-top: 2%;
+}
+
+.barra {
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    font-weight: 300;
+    margin-left: 2%;
+    margin-right: 3%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.title {
+    font-family: 'millerdisplay';
+    font-size: 70px;
+    text-align: center;
+    padding: 7%;
+    padding-bottom: 2%;
+}
+
+#text {
+    font-size: 15px;
+    font-weight: 200;
+    text-align: center;
+    padding-bottom: 1.5%;
+}
+
+
+img {
+    height: 150px;
+    padding: 10px;
+}
+
+img:hover {
+    filter: invert(1);
+}
+
+#especial {
+    padding-left: 6%;
+}
+
+
+

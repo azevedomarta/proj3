@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'aktivgrotesk';
+    src: url(AktivGrotesk-Medium.otf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'aktivgrotesk';
+    src: url(AktivGrotesk-Regular.otf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'aktivgrotesk';
+    src: url(AktivGrotesk-Italic.otf);
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'aktivgrotesk';
+    src: url(AktivGrotesk-Light.otf);
+    font-weight: 100;
+}
+
+
+@font-face {
+    font-family: 'millerdisplay';
+    src: url(Miller\ Display\ Regular.otf);
+}
+
+/* TIPOGRAFIA_FONTES */
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+
+  ::-webkit-scrollbar {
+    width: 0px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    } 
+
+/* SCROLL*/
+
+body {
+    color: black;
+    background-color: white;
+    margin: 4%;
+    margin-bottom: 0%;
+    margin-top: 2%;
+    font-family: 'aktivgrotesk';
+}
+
+.barra {
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    font-weight: 300;
+    margin-left: 2%;
+    margin-right: 3%;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+#title {
+    font-family: 'millerdisplay';
+    font-size: 70px;
+    text-align: center;
+    padding: 7%;
+    padding-bottom: 4%;
+}
+
+/* BÁSICO*/
+
+.column_1 {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+    width: 25%;
+    padding-left: 4%;
+    padding-right: 4%; 
+    padding-bottom: 1.5%;
+}
+
+.column_2 {
+    box-sizing: border-box;
+    float: left;
+    width: 25%;
+    position: relative;
+    padding-left: 3%;
+    padding-right: 3%; 
+    padding-bottom: 0.2%;
+    height: 400px;
+    overflow: auto; 
+    overflow-y: hidden;
+  }
+
+
+  .titulo {
+    font-size: 20px;
+    font-weight: 400;
+    word-spacing: 0.8rem;
+  }
+  
+  .sub {
+    font-size: 17px;
+    font-weight: 300;
+    word-spacing: 0.8rem;
+    
+  }
+
+  .text {
+    font-size: 17px;
+    font-weight: 200;
+    
+  }
+
+  .quote {
+    font-size: 12px;
+    font-weight: 100;
+  }
+
+  #dif {
+    font-size: 17px;
+    font-weight: 300;
+}
+
+
+
+

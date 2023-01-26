@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'aktivgrotesk';
+    src: url(AktivGrotesk-Regular.otf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'aktivgrotesk';
+    src: url(AktivGrotesk-Light.otf);
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'millerdisplay';
+    src: url(Miller\ Display\ Regular.otf);
+}
+
+/* TIPOGRAFIA_FONTES */
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+
+  ::-webkit-scrollbar {
+    width: 0px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    } 
+
+/* SCROLL */ 
+    
+body {
+    color: black;
+    background-color: white;
+    font-family: 'aktivgrotesk';
+}
+
+#body {
+    margin: 4%;
+    margin-top: 2%;
+}
+
+.barra {
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    font-weight: 300;
+    position: relative;
+    z-index: 2000;
+    margin-left: 2%;
+    margin-right: 3%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.title {
+    font-family: 'millerdisplay';
+    font-size: 70px;
+    text-align: center;
+    padding: 7%;
+    padding-bottom: 4%;
+}
+
+/* TEXTO ESPECIAL */
+
+.snowstorm {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 1000;
+}
+  
+  .snowflake {
+    z-index: 1000;
+    margin: 0%;
+    font-weight: 300;
+    font-size: 18px;
+    width: 10vw;
+    height: 15vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: rgb(0, 0, 0);
+
+  }
+

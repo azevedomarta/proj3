@@ -1,0 +1,246 @@
+@font-face {
+  font-family: 'aktivgrotesk';
+  src: url(AktivGrotesk-MediumItalic.otf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'aktivgrotesk';
+  src: url(AktivGrotesk-Medium.otf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'aktivgrotesk';
+  src: url(AktivGrotesk-Regular.otf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'aktivgrotesk';
+  src: url(AktivGrotesk-Light.otf);
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'aktivgrotesk';
+  src: url(AktivGrotesk-Hairline.otf);
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'millerdisplay';
+  src: url(Miller\ Display\ Regular.otf);
+}
+
+/* TIPOGRAFIA_FONTES */
+
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  }   
+
+body {
+    color: black;
+    background-color: white;
+    margin: 4%;
+    margin-bottom: 0%;
+    margin-top: 2%;
+    font-family: 'aktivgrotesk';
+    scrollbar-width:none;
+  }
+  
+  .barra {
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    font-weight: 300;
+    margin-left: 2%;
+    margin-right: 3%;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .title {
+    font-family: 'millerdisplay';
+    font-size: 70px;
+    text-align: center;
+    padding: 7%;
+    padding-bottom: 2%;
+  }
+
+/* TEXTO */  
+
+.column {
+  align-content: center;
+  float: left;
+  width: 23%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+
+#column_2 {
+  float: left;
+  width: 50%;
+}
+
+#column_3 {
+  padding-left: 6%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.text {
+  font-size: 28px;
+  padding-left: 3%;
+  padding-right: 3%;
+  line-height: 150%;
+  font-weight: 300;
+}
+
+#text_2 {
+  font-size: 15px;
+  padding-top: 4%;
+}
+
+b {
+  font-weight: 400;
+}
+
+.question {
+  font-weight: 500;
+}
+
+/***************/
+
+img {
+  height: 180px;
+  filter: grayscale(100);
+}
+
+#main-container {
+  width: auto;
+  top: 10%;
+  cursor: move;
+  left: 10%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+
+#main-container-2 {
+  width: auto;
+  top: 40%;
+  cursor: move;
+  left: 18%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+
+#main-container-5 {
+  width: auto;
+  top: 75%;
+  left: 3%;
+  cursor: move;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+
+#main-container-6 {
+  width: auto;
+  top: 3%;
+  left: 30%;
+  cursor: move;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+
+#main-container-7 {
+  width: auto;
+  top: 48%;
+  left: 40%;
+  cursor: move;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+
+#main-container-8 {
+  width: auto;
+  top: 75%;
+  left: 50%;
+  cursor: move;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+
+#main-container-9 {
+  width: auto;
+  top: 5%;
+  left: 58%;
+  cursor: move;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+
+#main-container-10 {
+  width: auto;
+  top: 40%;
+  left: 65%;
+  cursor: move;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+
+#main-container-13 {
+  width: auto;
+  top: 68%;
+  left: 70%;
+  cursor: move;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+
+#main-container-14 {
+  width: auto;
+  top: 22%;
+  left: 80%;
+  cursor: move;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+
